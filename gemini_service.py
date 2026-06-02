@@ -4,7 +4,7 @@ Google Gemini Service
 
 from google import genai
 
-API_KEY = "AIzaSyCH_MaKohpdYUd_jE62eOu8JFDbBwjuyDw"
+API_KEY = ""
 
 client = genai.Client(
     api_key=API_KEY
