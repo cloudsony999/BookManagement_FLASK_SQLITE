@@ -3,11 +3,12 @@ Google Gemini Service
 """
 
 from google import genai
+import os
 
-API_KEY = ""
+
 
 client = genai.Client(
-    api_key=API_KEY
+    api_key=os.environ["GEMINI_API_KEY"]
 )
 
 
